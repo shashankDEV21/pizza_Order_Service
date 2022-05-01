@@ -1,0 +1,9 @@
+1) Application should be developed by following the layered architecture which is used in demos of all topics
+2) Database connection details and SQL script is provided in resources package.Participants can type and familiar with table creation and insertion of data
+3) All Jar files required for implementing this application are placed inside "lib" folder
+4) All XML configuration details are provided
+5) Bean classes are used as data transfer object. These can be used for creating JSPs using spring form and transferring data between methods in different classes
+6) There will DAOWrapper class and DAO interfaces. JPA code needs to be implemented in DAOWrapper class using the EntityManager injected 
+7) Code for JPA Data needs to be implemented in DAO interface. These methods needs to be invoked from DAOWrapper class
+8) All business requirement needs to be implemented in service layer
+9) Controller class should have common exception handler method which should  redirect to common error page to display the error message
